@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(102, 187, 221);
+  font-family:sans-serif;
+}
+h1 {
+  position: absolute;
+  left: 43%;
+  top: 10%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 1vh;
+  color: saddlebrown;
+  background-color: gainsboro;
+  box-shadow: 0px 0px 5px black;
+  user-select: none;
+  cursor: pointer;
+}
+.container {
+  position:absolute;
+  left: 38%;
+  top: 25%;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px black;
+  padding: 40px 85px 20px;
+  width: 25%;
+  user-select: none;
+}
+
+#hr{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px  0px 3px black;
+  padding: 2px;
+}
+#min{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px  0px 3px black;
+  padding: 2px;
+}
+#sec{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px  0px 3px black;
+  padding: 2px;
+}
+#milli{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px  0px 3px black;
+  padding: 2px;
+}
+.timer{
+  display: flex;
+  font-size: x-large;
+}
+.btn{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20% 4% 15%;
+}
+
+#reset{
+  cursor: pointer;
+  padding: 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: 0px 0px 3px black;
+  background-color: yellow;
+}
+#reset:hover{
+  box-shadow: 0px 0px 5px yellow;
+}
+#start{
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: 0px 0px 3px black;
+  background-color: green;
+}
+#start:hover{
+  box-shadow: 0px 0px 8px green;
+}
+#stop{
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: 0px 0px 3px black;
+  background-color: red;
+}
+#stop:hover{
+  box-shadow: 0px 0px 5px red;
+}
